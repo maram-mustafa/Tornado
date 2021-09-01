@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 
 import java.util.List;
-
+// create DAO
 @Dao
 public interface DishDao {
     @Query("SELECT * FROM dish")

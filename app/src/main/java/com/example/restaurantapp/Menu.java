@@ -17,11 +17,13 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
+        // CREATE INSTANCE FROM DATABASE
         appDatabase  =  Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "Dishdatabase").allowMainThreadQueries().build();
-
+        // CREATE INSTANCE FROM DAO
         DishDao dishDao = appDatabase.dishDao();
         List<Dish> dishes = dishDao.getAll();
 
+        // LET RECYCLERVIEW REPRESENT DATA FROM FROM
         RecyclerView alldishesRecyclerView = findViewById(R.id.dishRecyclerView);
         alldishesRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
