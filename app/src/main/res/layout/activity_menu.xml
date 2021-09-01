@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".Menu">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dishRecyclerView"
+        android:layout_width="427dp"
+        android:layout_height="134dp"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

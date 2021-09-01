@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ASAC/401/Android/Tornado/app/src/main/res/layout/activity_add_dish.xml" value="0.264" />
+        <entry key="..\:/ASAC/401/Android/Tornado/app/src/main/res/layout/activity_detail.xml" value="0.264" />
         <entry key="..\:/ASAC/401/Android/Tornado/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/ASAC/401/Android/Tornado/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/ASAC/401/Android/Tornado/app/src/main/res/layout/fragment_dish_item.xml" value="0.2" />
       </map>
     </option>
   </component>
